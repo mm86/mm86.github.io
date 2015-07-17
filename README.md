@@ -1,2 +1,2 @@
 # Portfolio
-This is my portfolio for Udacity FEND project 2
+This is my portfolio for Udacity FEND project 1
