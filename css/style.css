@@ -1,0 +1,210 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:300);
+
+
+body {
+    padding-bottom: 40px;
+    background-color: #D8D8D8;
+
+}
+/* Navbar
+-------------------------------------------------- */
+
+#hidden-bar {
+    width: 100%;
+    position: fixed;
+    display: none;
+    top: 0;
+    z-index: 100;
+}
+.navbar {
+    background: #909090;
+}
+
+.navbar-default  .navbar-nav>li a {
+    color: white;
+}
+.navbar li {
+    padding: 10px 0;
+}
+.navbar-default  .navbar-nav>li:hover {
+    background: #D8D8D8;
+}
+.navbar-default  .navbar-nav>li a:hover {
+    background: #D8D8D8;
+}
+
+.dropdown-menu a{
+color:black !important;
+}
+
+/* Banner and Intro
+-------------------------------------------------- */
+
+#banner img {
+    width: 100%;
+}
+#intro {
+    position: absolute;
+    top: 70px;
+    z-index: 100;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+#intro h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+#intro h2 {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+/* About Me
+-------------------------------------------------- */
+
+#about h1 {
+    margin: 60px 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+#about p {
+    text-align: center;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+/* Skills
+-------------------------------------------------- */
+
+
+#skills .col-sm-4 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+#skills h1 {
+    text-align: center;
+    margin: 70px 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+#skills h2 {
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+#skills img {
+    border-radius: 20px;
+}
+#skills .row {
+    margin-bottom: 20px;
+}
+/* Three Projects
+-------------------------------------------------- */
+
+
+#projects .col-sm-4 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+#projects h1 {
+    text-align: center;
+    margin: 70px 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+#projects h2 {
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+#projects img {
+    border-radius: 20px;
+}
+
+
+/* Three Features
+------------------------- */
+
+.features h2 {
+    font-size: 30px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+.features h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+.features ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    line-height: 40px;
+}
+.glyphicon-ok {
+    padding-right: 20px;
+}
+.features li {
+    font-size: 18px;
+}
+.features img {
+    max-width: 100%;
+    float: right;
+}
+.divider {
+    margin: 80px 0;
+}
+.hideme {
+    opacity: 0;
+}
+.visible {
+    opacity: 1;
+}
+/* Media Queries
+-------------------------------------------------- */
+
+@media (max-width: 768px) {
+ 
+.features {
+    text-align: center;
+}
+.features ul {
+    margin-bottom: 20px;
+}
+.features img {
+    float: none;
+}
+
+}
+
+@media (max-width: 640px) {
+.features li {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#intro {
+    position: absolute;
+    top: 5%;
+}
+#intro h1 {
+    font-size: 24px;
+}
+#intro h2 {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+}
+
+@media (max-width: 320px) {
+#intro .btn {
+    display:none;
+}
+}
