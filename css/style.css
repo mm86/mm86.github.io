@@ -1,14 +1,36 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:300);
-
-
+@import  "http://fonts.googleapis.com/css?family=Roboto:300";
+@import  "https://fonts.googleapis.com/css?family=Quando";
+/* TODO: make sure not to use element names in conjuctions with ids and classes
+    streamline font property and use shorthand
+    put 2 line breaks between rules
+    seperate sections with comments
+    */
+html,
 body {
-    padding-bottom: 40px;
-    background-color: #D8D8D8;
+    height: 100%;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
 
 }
-/* Navbar
--------------------------------------------------- */
 
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #d8d8d8;
+}
+
+p {
+
+    font-size: 2.5vw;
+}
+
+h1 {
+
+    font-size: 3.5vw;
+}
+
+/* Navbar
+    -------------------------------------------------- */
 #hidden-bar {
     width: 100%;
     position: fixed;
@@ -16,195 +38,179 @@ body {
     top: 0;
     z-index: 100;
 }
+
 .navbar {
-    background: #909090;
+    background: #000;
 }
 
-.navbar-default  .navbar-nav>li a {
-    color: white;
-}
 .navbar li {
     padding: 10px 0;
 }
-.navbar-default  .navbar-nav>li:hover {
-    background: #D8D8D8;
-}
-.navbar-default  .navbar-nav>li a:hover {
-    background: #D8D8D8;
+
+.nav li a {
+    color: #d8d8d8;
+    font-weight: 700;
 }
 
-.dropdown-menu a{
-color:black !important;
+.navbar-default .navbar-nav li:hover {
+    background: #ff8c00;
 }
 
 /* Banner and Intro
--------------------------------------------------- */
+    -------------------------------------------------- */
 
-#banner img {
+header {
+    display: table;
+    position: relative;
     width: 100%;
+    height: 100%;
+     background-image: url(../img/buddha.jpg);
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
 }
+
+
 #intro {
-    position: absolute;
-    top: 70px;
-    z-index: 100;
-    color: white;
-    text-align: center;
-    width: 100%;
-    margin: 0 auto;
+    width: 50%;
+    z-index: 99;
+    color: #fff;
+    margin: 8% 0 0 50%;
 }
-#intro h1 {
-    font-size: 50px;
-    font-weight: bold;
-}
+
 #intro h2 {
-    font-size: 30px;
-    font-family: 'Roboto', sans-serif;
-    line-height: 40px;
-    margin-bottom: 40px;
+    font-size: 3vw;
+    font-family: Georgia,serif;
+    line-height: 1.45;
+    margin: 40px 0;
+    color: #7a7a7a;
+    padding: 0 40px;
 }
+
+#intro .btn {
+    margin: 0 40px;
+    font-size: 2vw;
+}
+
+.btn-default {
+    background: #916332;
+    border-color: #916332;
+}
+
+blockquote {
+    border: 0;
+    font-family: Georgia,serif;
+    font-size: 3vw;
+    font-style: italic;
+    margin: .20em 0;
+    padding: .35em 40px;
+    line-height: 1.45;
+    position: relative;
+    color: #383838;
+}
+
+blockquote:before {
+    display: block;
+    padding: 0 10px 0 0;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    color: #7a7a7a;
+}
+
+blockquote cite {
+    color: #999;
+    font-size: 3vw;
+    display: block;
+    margin: 5px 0 0;
+}
+
+blockquote cite:before {
+    content: "\2014 \2009";
+}
+
 /* About Me
--------------------------------------------------- */
-
+    -------------------------------------------------- */
 #about h1 {
-    margin: 60px 0;
+    margin: 40px 0;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+    color: #916332;
+    text-transform: uppercase;
 }
+
 #about p {
-    text-align: center;
     text-align: justify;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
 }
-/* Skills
--------------------------------------------------- */
 
-
-#skills .col-sm-4 {
-    margin-bottom: 20px;
-    text-align: center;
-}
-#skills h1 {
-    text-align: center;
-    margin: 70px 0;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-}
-#skills h2 {
-    font-weight: normal;
-    font-family: 'Roboto', sans-serif;
-}
-#skills img {
-    border-radius: 20px;
-}
-#skills .row {
-    margin-bottom: 20px;
-}
 /* Three Projects
--------------------------------------------------- */
-
-
-#projects .col-sm-4 {
-    margin-bottom: 20px;
-    text-align: center;
-}
+    -------------------------------------------------- */
 #projects h1 {
     text-align: center;
-    margin: 70px 0;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+    margin: 20px 0 40px;
+    color: #916332;
+    text-transform: uppercase;
 }
-#projects h2 {
-    font-weight: normal;
-    font-family: 'Roboto', sans-serif;
-}
+
+
 #projects img {
-    border-radius: 20px;
-}
-
-
-/* Three Features
-------------------------- */
-
-.features h2 {
-    font-size: 30px;
-    font-weight: normal;
-    font-family: 'Roboto', sans-serif;
-}
-.features h3 {
-    margin-bottom: 20px;
-    font-size: 20px;
-    font-weight: normal;
-    font-family: 'Roboto', sans-serif;
-}
-.features ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    font-size: 18px;
-    font-weight: normal;
-    font-family: 'Roboto', sans-serif;
-    line-height: 40px;
-}
-.glyphicon-ok {
-    padding-right: 20px;
-}
-.features li {
-    font-size: 18px;
-}
-.features img {
     max-width: 100%;
-    float: right;
 }
-.divider {
-    margin: 80px 0;
-}
-.hideme {
-    opacity: 0;
-}
-.visible {
-    opacity: 1;
-}
-/* Media Queries
--------------------------------------------------- */
 
-@media (max-width: 768px) {
- 
-.features {
+/* no-gutters Class Rules */
+.row.no-gutters {
+    margin: 0;
+}
+
+.row.no-gutters > [class^="col-"],.row.no-gutters > [class*=" col-"] {
+    padding: 0;
+}
+
+.mask {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255,140,0,0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
     text-align: center;
 }
-.features ul {
-    margin-bottom: 20px;
-}
-.features img {
-    float: none;
+
+.mask p {
+    margin: 30px 0 0;
 }
 
+.grid-image:hover .mask {
+    visibility: visible;
+    opacity: 1;
 }
 
-@media (max-width: 640px) {
-.features li {
-    font-size: 16px;
-    line-height: 20px;
+.divider {
+    margin: 40px 0;
 }
 
-#intro {
-    position: absolute;
-    top: 5%;
-}
-#intro h1 {
-    font-size: 24px;
-}
-#intro h2 {
-    font-size: 20px;
-    line-height: 25px;
-    margin-bottom: 10px;
-}
+/* Footer
+    -------------------------------------------------- */
+footer {
+    text-align: center;
 }
 
-@media (max-width: 320px) {
-#intro .btn {
-    display:none;
+footer h1 {
+    margin: 20px 0 40px;
+    color: #916332;
+    text-transform: uppercase;
 }
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
 }
