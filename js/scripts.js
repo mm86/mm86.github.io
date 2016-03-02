@@ -1,7 +1,6 @@
-//TODO: check this code for validity
 
-jQuery(document).ready(function() {
-  jQuery('#about').addClass("hideme").viewportChecker({
+$(document).ready(function() {
+  $('#about').addClass("hideme").viewportChecker({
     classToAdd: 'visible animated fadeIn',
     offset: 100
   });
@@ -9,10 +8,10 @@ jQuery(document).ready(function() {
 
 
 var offset = 500;
-jQuery(window).scroll(function() {
-  if (jQuery(window).scrollTop() < offset) {
-    jQuery('#hidden-bar').fadeOut(200);
-  } else if (jQuery(window).scrollTop() > offset) {
-    jQuery('#hidden-bar').fadeIn(400);
+$(window).scroll(function() {
+  if ($(window).scrollTop() < offset) {
+    $('#hidden-bar').fadeOut(200);
+  } else if ($(window).scrollTop() > offset) {
+    $('#hidden-bar').fadeIn(400);
   }
 });
