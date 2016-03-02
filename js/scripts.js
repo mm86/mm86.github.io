@@ -1,9 +1,16 @@
 
 $(document).ready(function() {
-  $('#about').addClass("hideme").viewportChecker({
-    classToAdd: 'visible animated fadeIn',
-    offset: 100
-  });
+    $('#about').addClass("hideme").viewportChecker({
+        classToAdd: 'visible animated fadeInLeft',
+        offset: 100
+       });
+});
+
+$(document).ready(function() {
+    $('#projects').addClass("hideme").viewportChecker({
+        classToAdd: 'visible animated fadeInLeft',
+        offset: 100
+       });
 });
 
 
