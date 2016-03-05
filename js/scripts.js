@@ -13,6 +13,13 @@ $(document).ready(function() {
        });
 });
 
+$(document).ready(function() {
+    $('#contact').addClass("hideme").viewportChecker({
+        classToAdd: 'visible animated fadeInLeft',
+        offset: 100
+       });
+});
+
 
 var offset = 500;
 $(window).scroll(function() {
