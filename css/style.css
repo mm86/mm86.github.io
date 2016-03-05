@@ -195,7 +195,8 @@ blockquote cite:before {
 }
 
 .divider {
-    margin: 40px 0;
+    margin: 50px 0;
+    border-top: 2px solid #eee;
 }
 
 /* Footer
