@@ -25,7 +25,14 @@ p {
 
 h1 {
     font-size: 3.5vw;
-    margin: 70px 0;
+
+}
+
+.hr-line {
+    background-color: #916332;
+    width: 100px;
+    height: 2px;
+    margin: 0 auto 70px auto;
 }
 
 /* Navbar
@@ -138,6 +145,7 @@ blockquote cite:before {
     text-align: center;
     color: #916332;
     text-transform: uppercase;
+    margin: 70px 0 20px 0;
 }
 
 #about p {
@@ -156,6 +164,7 @@ blockquote cite:before {
     text-align: center;
     color: #916332;
     text-transform: uppercase;
+    margin: 70px 0 20px 0;
 }
 
 
@@ -208,6 +217,7 @@ footer {
 footer h1 {
     color: #916332;
     text-transform: uppercase;
+    margin: 70px 0 20px 0;
 }
 
 footer ul {
