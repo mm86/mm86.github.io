@@ -20,13 +20,12 @@ body {
 }
 
 p {
-
     font-size: 2.5vw;
 }
 
 h1 {
-
     font-size: 3.5vw;
+    margin: 70px 0;
 }
 
 /* Navbar
@@ -136,7 +135,6 @@ blockquote cite:before {
 /* About Me
     -------------------------------------------------- */
 #about h1 {
-    margin: 40px 0;
     text-align: center;
     color: #916332;
     text-transform: uppercase;
@@ -156,7 +154,6 @@ blockquote cite:before {
     -------------------------------------------------- */
 #projects h1 {
     text-align: center;
-    margin: 20px 0 40px;
     color: #916332;
     text-transform: uppercase;
 }
@@ -208,7 +205,6 @@ footer {
 }
 
 footer h1 {
-    margin: 20px 0 40px;
     color: #916332;
     text-transform: uppercase;
 }
