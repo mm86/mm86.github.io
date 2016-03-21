@@ -154,6 +154,8 @@ blockquote cite:before {
 .visible{
      opacity:1;
 }
+
+
 /* Three Projects
     -------------------------------------------------- */
 
@@ -194,7 +196,7 @@ blockquote cite:before {
 }
 
 .divider {
-    margin: 50px 0;
+    
     border-top: 2px solid #eee;
 }
 
