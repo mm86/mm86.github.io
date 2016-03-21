@@ -1,10 +1,6 @@
 @import  "http://fonts.googleapis.com/css?family=Roboto:300";
 @import  "https://fonts.googleapis.com/css?family=Quando";
-/* TODO: make sure not to use element names in conjuctions with ids and classes
-    streamline font property and use shorthand
-    put 2 line breaks between rules
-    seperate sections with comments
-    */
+
 html,
 body {
     height: 100%;
