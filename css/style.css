@@ -206,15 +206,15 @@ blockquote cite:before {
 
 /* Footer
     -------------------------------------------------- */
+
 footer {
     text-align: center;
 }
 
-
-
 footer ul {
     list-style-type: none;
-    padding: 0;
+    padding: 0 0 50px 0;
+
 }
 
 footer ul li {
