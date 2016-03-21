@@ -1,6 +1,9 @@
 @import  "http://fonts.googleapis.com/css?family=Roboto:300";
 @import  "https://fonts.googleapis.com/css?family=Quando";
 
+
+/* General
+    -------------------------------------------------- */
 html,
 body {
     height: 100%;
@@ -34,6 +37,11 @@ h1 {
     height: 2px;
     margin: 0 auto 70px auto;
 
+}
+
+.divider {
+    margin: 50px 0 0 0;
+    border-top: 2px solid #eee;
 }
 
 /* Navbar
@@ -195,10 +203,6 @@ blockquote cite:before {
     opacity: 1;
 }
 
-.divider {
-
-    border-top: 2px solid #eee;
-}
 
 /* Footer
     -------------------------------------------------- */
