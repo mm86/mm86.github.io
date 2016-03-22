@@ -9,18 +9,14 @@ body {
     height: 100%;
     width: 100%;
     font-family: "Roboto", sans-serif;
-
-}
-
-body {
-    margin: 0;
-    padding: 0;
     background-color: #fff;
 }
+
 
 p {
     font-size: 2.5vw;
 }
+
 
 h1 {
     font-size: 3.5vw;
@@ -31,6 +27,7 @@ h1 {
 
 }
 
+
 .hr-line {
     background-color: #916332;
     width: 100px;
@@ -39,10 +36,12 @@ h1 {
 
 }
 
+
 .divider {
     margin: 50px 0 0 0;
     border-top: 2px solid #eee;
 }
+
 
 /* Navbar
     -------------------------------------------------- */
@@ -62,16 +61,17 @@ h1 {
     padding: 10px 0;
 }
 
-.nav li a {
-    color: #d8d8d8;
-    font-weight: 700;
+.navbar-default .navbar-nav li a {
+    color: #fff;
+    font-size: 18px;
+
 }
 
 .navbar-default .navbar-nav li:hover {
     background: #ff8c00;
 }
 
-/* Banner and Intro
+/* Banner
     -------------------------------------------------- */
 
 header {
@@ -207,11 +207,8 @@ blockquote cite:before {
 /* Footer
     -------------------------------------------------- */
 
-footer {
-    text-align: center;
-}
-
 footer ul {
+    text-align: center;
     list-style-type: none;
     padding: 0 0 50px 0;
 
