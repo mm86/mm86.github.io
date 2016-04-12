@@ -202,6 +202,55 @@ blockquote cite:before {
     opacity: 1;
 }
 
+/* Skills
+    -------------------------------------------------- */
+
+.skills {
+    display: block;
+    margin: 0 auto;
+    height: 130px;
+    width: 130px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-image: url(../img/sprites.png);
+
+}
+
+#skills h4 {
+
+    text-align: center;
+
+}
+
+.skills.html {
+
+    background-position: 0 0;
+}
+
+.skills.css {
+
+    background-position: -148px 0;
+}
+
+.skills.javascript {
+
+    background-position: -296px 0;
+}
+
+.skills.responsive {
+
+    background-position: -444px 0;
+}
+
+.skills.optimize {
+
+    background-position: -592px 0;
+}
+
+.skills.production {
+
+    background-position: -740px 0;
+}
 
 /* Footer
     -------------------------------------------------- */
