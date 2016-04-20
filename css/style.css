@@ -71,6 +71,10 @@ h1 {
     background: #ff8c00;
 }
 
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
 /* Banner
     -------------------------------------------------- */
 
