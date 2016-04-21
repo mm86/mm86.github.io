@@ -78,6 +78,7 @@ h1 {
 /* Banner
     -------------------------------------------------- */
 
+
 header {
     display: table;
     position: relative;
@@ -91,54 +92,31 @@ header {
 
 
 #intro {
-    width: 50%;
-    z-index: 99;
+  
     color: #fff;
     margin: 8% 0 0 50%;
 
 }
 
-#intro h2 {
-    font-size: 3vw;
-    font-family: Georgia, serif;
-    line-height: 1.45;
-    color: #7a7a7a;
-    margin: .20em 0;
-    padding: .35em 40px;
-
-
-}
-
-#intro .btn {
-    margin: 0 40px;
-    font-size: 2vw;
-}
-
-.btn-default {
-    background: #916332;
-    border-color: #916332;
-}
-
 blockquote {
+
     border: 0;
     font-family: Georgia, serif;
     font-size: 3vw;
     font-style: italic;
-    margin: .20em 0;
-    padding: .35em 40px;
     line-height: 1.45;
     position: relative;
     color: #383838;
+    margin:0 10px;
 }
 
 blockquote:before {
-    display: block;
-    padding: 0 10px 0 0;
+
     content: "\201C";
-    font-size: 80px;
+    font-size: 8vw;
     position: absolute;
-    left: -20px;
-    top: -20px;
+    top: -3vw;
+    left: -3vw;
     color: #7a7a7a;
 }
 
@@ -147,10 +125,32 @@ blockquote cite {
     font-size: 3vw;
     display: block;
     margin: 5px 0 0;
+
 }
 
 blockquote cite:before {
     content: "\2014 \2009";
+}
+
+#intro h2 {
+    font-size: 3vw;
+    font-family: Georgia, serif;
+    line-height: 1.45;
+    color: #7a7a7a;
+    padding: 0 0 0 20px;
+    margin: 40px 0 0 0;
+
+}
+
+#intro .btn {
+
+    font-size: 2vw;
+    margin: 20px 0 0 20px;
+}
+
+.btn-default {
+    background: #916332;
+    border-color: #916332;
 }
 
 /* About Me
