@@ -262,14 +262,27 @@ blockquote cite:before {
 
 #blog p {
 
-    font-size: 14px;
+    font-size: 1em;
+    color: #000;
+    text-align: justify;
+}
+
+#blog h4 {
+
+    font-weight: bold;
+    color: #000;
+}
+
+#blog a {
+
+    text-decoration: none;
 }
 
 .blogpost {
     cursor: pointer;
     border: 1px solid white;
-    padding: 20px;
-    box-shadow: 0 0.3125em 1.25em 0 rgba(46,61,73,0.12);
+    padding: 2em;
+    box-shadow: 0 0.3em 1.25em 0 rgba(46,61,73,0.12);
     transition: box-shadow .3s ease, transform .3s ease;
 
 }
