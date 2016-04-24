@@ -7,7 +7,21 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
+    $('#skills').addClass("hideme").viewportChecker({
+        classToAdd: 'visible animated fadeInLeft',
+        offset: 100
+       });
+});
+
+$(document).ready(function() {
     $('#projects').addClass("hideme").viewportChecker({
+        classToAdd: 'visible animated fadeInLeft',
+        offset: 100
+       });
+});
+
+$(document).ready(function() {
+    $('#blog').addClass("hideme").viewportChecker({
         classToAdd: 'visible animated fadeInLeft',
         offset: 100
        });
