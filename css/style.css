@@ -160,14 +160,6 @@ blockquote cite:before {
     text-align: justify;
 }
 
-.hideme{
-     opacity:0;
-}
-.visible{
-     opacity:1;
-}
-
-
 /* Projects
     -------------------------------------------------- */
 
